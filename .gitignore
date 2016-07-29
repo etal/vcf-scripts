@@ -1,4 +1,35 @@
-*.pyc
-*.pyo
-*.swp
-*.swo
+# Python compilation/installation byproducts
+__pycache__/
+*.py[cod]
+*$py.class
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+.installed.cfg
+*.egg
+*.egg-info/
+.eggs/
+eggs/
+develop-eggs/
+build/
+dist/
+downloads/
+env/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# IPython notebook
+.ipynb_checkpoints
+
+# Vim
+*.sw[op]
+
+# Virtualenv
+venv/
+ENV/
+
+# Mac
+.DS_Store
